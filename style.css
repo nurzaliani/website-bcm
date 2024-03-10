@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    font-family:sans-serif;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 0, 0.5)),
+    url("background\ image.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fdfdfd;
+    
+}
+
+
+#banner{
+    width: 100%;
+    background: linear-gradient(#000,#d097e5) url(srwk.png);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+}
+.banner-text{
+    text-align: center;
+    padding-top: 170px;
+    margin-left: -2px;
+    
+}
+
+.banner-text h1{
+    font-size: 90px;
+    font-family: Lucida Handwriting ;
+    color:rgb(255, 255, 255);
+    text-shadow:0 0 10px #070707, 0 0 10px #f0d29b, 0 0 10px #d5b06c, 0 0 20px #e9aa7a, 0 0 10px #e68200, 0 0 10px #e67300, 0 0 10px #e60073;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: Brush Script MT ;
+    color:rgb(239, 211, 211);
+    text-shadow:0 0 10px #070707, 0 0 10px #fff, 0 0 10px #f7f6f6, 0 0 10px #f3f1f0, 0 0 10px #e68200, 0 0 10px #e67300, 0 0 10px #e60073;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.topnav{
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.topnav a{
+  float: right;
+  display: block;
+  color: #f0b236;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ddbd06;
+  color: white;
+}
+
+.topnav .icon{
+  display: none;
+}
+
+.myAudio {
+  background-color: #d097e5;
+
+}
+
+.myAudio a{
+  float: center;
+}

@@ -1,0 +1,68 @@
+  <html>
+<head>
+        <title>Video Gallery</title>
+        <link rel="stylesheet" href="video.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>BORNEO CULTURES MUSEUM</h1>
+        <div class="row">
+            <div class="col">
+                <div class="feature-img">
+                    <img src="1.jpg" width="100%">
+                    <img src="play.png" class="play-btn"
+                    onclick="playVideo('vid4.mp4')">
+                </div>
+            </div>
+            <div class="col">
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="2.jpg">
+                        <img src="play.png" class="play-btn"
+                        onclick="playVideo('vid1.mp4')">
+                    </div>
+                    <p>Feedback from visitor<br>PART 1</p>
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="3.jpg">
+                        <img src="play.png" class="play-btn"
+                        onclick="playVideo('vid2.mp4')">
+                    </div>
+                    <p>Feedback from visitor<br>PART 2</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+<div class="video-player" id="videoPlayer">
+    <video width="100%" controls autoplay id="myVideo">
+        <source src="vid1.mp4" type="video/mp4">
+    </video>
+    <img src="close.png" class="close-btn" onclick="stopVideo()">
+
+    
+</div>
+
+<script>
+    var videoPlayer = document.getElementById("videoPlayer");
+    var myVideo = document.getElementById("myVideo");
+
+    function stopVideo(){
+
+        videoPlayer.style.display="none";
+    }
+
+    function playVideo(file){
+        myVideo.src=file;
+        videoPlayer.style.display="block";
+    }
+</script>
+
+<div id="mySidenav" class="sidenav">
+    <a href="gallery.html" id="back">BACK</a>
+</div>
+</body>
+</html>

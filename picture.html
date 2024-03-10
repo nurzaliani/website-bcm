@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Image Gallery</title>
+        <link rel="stylesheet" href="picture.css">
+    </head>
+</html>
+
+<div class="full-img" id="fullImgBox">
+    <img src="1.jpg" id="fullImg">
+    <span onclick="closeFullImg()">x</span>
+ </div>
+ <div class="img-gallery">
+    <img src="1.jpg" onclick="openFullImg(this.src)">
+    <img src="2.jpg" onclick="openFullImg(this.src)">
+    <img src="4.jpg" onclick="openFullImg(this.src)">
+    <img src="5.jpg" onclick="openFullImg(this.src)">
+    <img src="6.jpg" onclick="openFullImg(this.src)">
+    <img src="7.jpg" onclick="openFullImg(this.src)">
+    <img src="8.jpg" onclick="openFullImg(this.src)">
+    <img src="9.jpg" onclick="openFullImg(this.src)">
+    <img src="10.jpg" onclick="openFullImg(this.src)">
+    <img src="11.jpg" onclick="openFullImg(this.src)">
+    <img src="12.jpg" onclick="openFullImg(this.src)">
+    <img src="13.jpg" onclick="openFullImg(this.src)">
+    <img src="14.jpg" onclick="openFullImg(this.src)">
+    <img src="15.jpg" onclick="openFullImg(this.src)">
+    <img src="16.jpg" onclick="openFullImg(this.src)">
+    <img src="17.jpg" onclick="openFullImg(this.src)">
+    <img src="18.jpg" onclick="openFullImg(this.src)">
+    <img src="19.jpg" onclick="openFullImg(this.src)">
+    <img src="20.jpg" onclick="openFullImg(this.src)">
+    <img src="21.jpg" onclick="openFullImg(this.src)">
+    <img src="22.jpg" onclick="openFullImg(this.src)">
+    <img src="23.jpg" onclick="openFullImg(this.src)">
+    <img src="24.jpg" onclick="openFullImg(this.src)">
+    <img src="25.jpg" onclick="openFullImg(this.src)">
+    <img src="26.jpg" onclick="openFullImg(this.src)">
+    <img src="27.jpg" onclick="openFullImg(this.src)">
+    <img src="28.jpg" onclick="openFullImg(this.src)">
+    <img src="29.jpg" onclick="openFullImg(this.src)">
+    <img src="30.jpg" onclick="openFullImg(this.src)">
+    <img src="31.jpg" onclick="openFullImg(this.src)">
+    <img src="32.jpg" onclick="openFullImg(this.src)">
+    <img src="33.jpg" onclick="openFullImg(this.src)">
+    <img src="34.jpg" onclick="openFullImg(this.src)">
+    <img src="35.jpg" onclick="openFullImg(this.src)">
+    <img src="36.jpg" onclick="openFullImg(this.src)">
+    <img src="37.jpg" onclick="openFullImg(this.src)">
+    <img src="38.jpg" onclick="openFullImg(this.src)">
+    <img src="39.jpg" onclick="openFullImg(this.src)">
+    <img src="40.jpg" onclick="openFullImg(this.src)">
+    <img src="41.jpg" onclick="openFullImg(this.src)">
+    <img src="42.jpg" onclick="openFullImg(this.src)">
+    <img src="43.jpg" onclick="openFullImg(this.src)">
+    <img src="44.jpg" onclick="openFullImg(this.src)">
+    <img src="45.jpg" onclick="openFullImg(this.src)">
+    <img src="46.jpg" onclick="openFullImg(this.src)">
+    <img src="47.jpg" onclick="openFullImg(this.src)">
+    <img src="48.jpg" onclick="openFullImg(this.src)">
+    <img src="49.jpg" onclick="openFullImg(this.src)">
+    <img src="50.jpg" onclick="openFullImg(this.src)">
+    <img src="51.jpg" onclick="openFullImg(this.src)">
+    <img src="52.jpg" onclick="openFullImg(this.src)">
+    <img src="54.jpg" onclick="openFullImg(this.src)">
+    <img src="55.jpg" onclick="openFullImg(this.src)">
+    <img src="56.jpg" onclick="openFullImg(this.src)">
+    <img src="57.jpg" onclick="openFullImg(this.src)">
+    <img src="58.jpg" onclick="openFullImg(this.src)">
+    <img src="59.jpg" onclick="openFullImg(this.src)">
+    <img src="60.jpg" onclick="openFullImg(this.src)">
+    <img src="61.jpg" onclick="openFullImg(this.src)">
+    <img src="62.jpg" onclick="openFullImg(this.src)">
+    <img src="63.jpg" onclick="openFullImg(this.src)">
+    <img src="64.jpg" onclick="openFullImg(this.src)">
+    <img src="65.jpg" onclick="openFullImg(this.src)">
+    <img src="66.jpg" onclick="openFullImg(this.src)">
+    <img src="67.jpg" onclick="openFullImg(this.src)">
+    <img src="68.jpg" onclick="openFullImg(this.src)">
+    <img src="69.jpg" onclick="openFullImg(this.src)">
+    <img src="70.jpg" onclick="openFullImg(this.src)">
+    <img src="71.jpg" onclick="openFullImg(this.src)">
+    <img src="72.jpg" onclick="openFullImg(this.src)">
+    <img src="73.jpg" onclick="openFullImg(this.src)">
+    <img src="74.jpg" onclick="openFullImg(this.src)">
+    <img src="75.jpg" onclick="openFullImg(this.src)">
+    <img src="76.jpg" onclick="openFullImg(this.src)">
+    <img src="77.jpg" onclick="openFullImg(this.src)">
+    <img src="78.jpg" onclick="openFullImg(this.src)">
+    <img src="79.jpg" onclick="openFullImg(this.src)">
+    <img src="80.jpg" onclick="openFullImg(this.src)">
+    <img src="81.jpg" onclick="openFullImg(this.src)">
+    <img src="53.jpg" onclick="openFullImg(this.src)">
+   
+ </div>
+<script>
+var fullImgBox=document.getElementById("fullImgBox")
+var fullImg=document.getElementById("fullImg")
+
+function openFullImg(pic){
+    fullImgBox.style.display="flex";
+    fullImg.src=pic;
+}
+function closeFullImg(){
+    fullImgBox.style.display="none";
+}
+function back(){
+    fullImgBox.style.display="none";
+}
+</script>
+<div id="mySidenav" class="sidenav">
+    <a href="gallery.html" id="back">Back</a>
+</div>
